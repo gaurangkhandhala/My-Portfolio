@@ -1,8 +1,7 @@
 import React from 'react'
 import '../Home/Home.css'
 import img1 from '../../assets/g1.jpg'
-import CV from '../../assets/CV.pdf'
-import CV2 from '../../assets/gaurang-resume.pdf.pdf'
+import CV from '../../assets/gaurang.pdf'
 
 import { useNavigate } from 'react-router-dom'
 
@@ -27,7 +26,7 @@ export default function Home() {
         <a href="https://github.com/khandhalagaurang"><i className="bi bi-github white"></i></a>
       </div>
       <div>
-        <button className='btn1'><a href={CV2} download={""} className='btn1'>Download CV</a></button>&nbsp;&nbsp;&nbsp;
+        <button className='btn1'><a href={CV} download={""} className='btn1'>Download CV</a></button>&nbsp;&nbsp;&nbsp;
         <button className='btn2' onClick={GoToContect}>Contect Me</button>
       </div>
       <img src={img1} alt="" className='img1' />
